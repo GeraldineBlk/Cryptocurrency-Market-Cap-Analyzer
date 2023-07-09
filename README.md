@@ -16,3 +16,6 @@ The generate_market_share_pie_chart method generates a pie chart showing the mar
 To use this code, replace the api_url variable with the actual API endpoint to fetch market capitalization data for cryptocurrencies. Additionally, customize the data manipulation and analysis steps in the analyze_market_cap_data method based on your specific requirements.
 
 Make sure you have the required libraries (requests, pandas, matplotlib) installed before running the code. You can install them using the following commands:
+pip install requests
+pip install pandas
+pip install matplotlib
