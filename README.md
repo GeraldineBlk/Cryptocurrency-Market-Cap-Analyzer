@@ -4,7 +4,7 @@ Analyze the market capitalization of different cryptocurrencies and generate rep
 
 __Data Retrieval:__
 
-The ```fetch_market_cap_data``` method fetches market capitalization data from the specified cryptocurrency API using the requests library and stores it in the ```self.data``` variable.
+The ```fetch_market_cap_data``` method fetches market capitalization data from the specified cryptocurrency API using the ```requests``` library and stores it in the ```self.data``` variable.
 
 __Data Analysis:__
 
@@ -18,7 +18,7 @@ The ```generate_market_share_pie_chart``` method generates a pie chart showing t
 
 __Usage:__
 
-To use this code, replace the ```api_ur```l variable with the actual API endpoint to fetch market capitalization data for cryptocurrencies. Additionally, customize the data manipulation and analysis steps in the ```analyze_market_cap_data method``` based on your specific requirements.
+To use this code, replace the ```api_url``` variable with the actual API endpoint to fetch market capitalization data for cryptocurrencies. Additionally, customize the data manipulation and analysis steps in the ```analyze_market_cap_data method``` based on your specific requirements.
 
 Make sure you have the required libraries (requests, pandas, matplotlib) installed before running the code. You can install them using the following commands:
 ```
