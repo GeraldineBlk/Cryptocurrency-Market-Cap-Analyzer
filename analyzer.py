@@ -32,7 +32,7 @@ class MarketCapAnalyzer:
         self.generate_market_share_pie_chart(df)
 
     def generate_top_n_chart(self, df, n):
-        # Generate a bar chart showing the top N cryptocurrencies by market cap
+        # Generate a bar chart showing the top N cryptocurrencies by market cap:
         top_n_df = df.head(n)
         labels = top_n_df['symbol']
         market_caps = top_n_df['market_cap']
