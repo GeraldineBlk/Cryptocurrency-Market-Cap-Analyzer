@@ -21,7 +21,7 @@ class MarketCapAnalyzer:
 
         # Perform data manipulation and analysis using pandas
 
-        # Calculate market share
+        # Calculate market share:
         df['market_share'] = df['market_cap'] / df['total_market_cap'] * 100
 
         # Sort by market cap in descending order
