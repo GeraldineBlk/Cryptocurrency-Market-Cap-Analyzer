@@ -19,7 +19,7 @@ class MarketCapAnalyzer:
         # Convert data to pandas DataFrame for analysis
         df = pd.DataFrame(self.data)
 
-        # Perform data manipulation and analysis using pandas
+        # Perform data manipulation and analysis using pandas:
 
         # Calculate market share:
         df['market_share'] = df['market_cap'] / df['total_market_cap'] * 100
