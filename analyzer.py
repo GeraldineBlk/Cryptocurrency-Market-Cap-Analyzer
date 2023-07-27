@@ -57,7 +57,7 @@ class MarketCapAnalyzer:
 
 # Example usage:
 
-# Define API URL
+# Define API URL:
 api_url = "https://api.example.com/market-cap"
 
 # Create an instance of MarketCapAnalyzer
