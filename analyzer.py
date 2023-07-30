@@ -8,7 +8,7 @@ class MarketCapAnalyzer:
         self.data = None
 
     def fetch_market_cap_data(self):
-        # Fetch market capitalization data from the cryptocurrency API
+        # Fetch market capitalization data from the cryptocurrency API:
         response = requests.get(self.api_url)
         if response.status_code == 200:
             self.data = response.json()
@@ -16,7 +16,7 @@ class MarketCapAnalyzer:
             print("Error fetching market cap data from the API.")
 
     def analyze_market_cap_data(self):
-        # Convert data to pandas DataFrame for analysis
+        # Convert data to pandas DataFrame for analysis:
         df = pd.DataFrame(self.data)
 
         # Perform data manipulation and analysis using pandas:
