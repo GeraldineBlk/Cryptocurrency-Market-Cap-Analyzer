@@ -2,6 +2,7 @@
 
 Analyze the market capitalization of different cryptocurrencies and generate reports and visualizations.
 
+
 __Data Retrieval:__
 
  - The ```fetch_market_cap_data``` method fetches market capitalization data from the specified cryptocurrency API using the ```requests``` library and stores it in the ```self.data``` variable.
