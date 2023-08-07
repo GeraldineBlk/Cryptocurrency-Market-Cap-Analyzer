@@ -16,7 +16,7 @@ class MarketCapAnalyzer:
             print("Error fetching market cap data from the API.")
 
     def analyze_market_cap_data(self):
-        # Convert data to pandas DataFrame for analysis:
+        # Convert data to pandas DataFrame for analysis::
         df = pd.DataFrame(self.data)
 
         # Perform data manipulation and analysis using pandas:
